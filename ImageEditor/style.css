@@ -12,14 +12,17 @@ body{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #212F3C;
+  background-image: linear-gradient(to bottom right,#A9F1DF , #FFBBBB);
+
+ 
 }
 .container{
   width: 850px;
   padding: 30px 35px 35px;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-radius: 10px  ;
+  box-shadow:8px 10px 8px 10px #848383;
+  
 }
 .container.disable .editor-panel,
 .container.disable .controls .reset-filter,
@@ -31,6 +34,7 @@ body{
   margin-top: -8px;
   font-size: 22px;
   font-weight: 500;
+  font-family: cursive;
 }
 .container .wrapper{
   display: flex;
@@ -67,7 +71,7 @@ body{
   width: calc(100% / 2 - 4px);
 }
 .editor-panel button:hover{
-  background: #f5f5f5;
+  background: #e7e6e6;
 }
 .filter button.active{
   color: #fff;
